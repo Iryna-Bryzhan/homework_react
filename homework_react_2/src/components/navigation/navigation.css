@@ -1,0 +1,25 @@
+.navigation{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.menu-item{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    text-decoration: none;
+}
+.menu-item-img img{
+    margin-right: 20px;
+}
+.menu-item-text{
+    color: #C0BFBD ;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 20px;
+    display: none;
+}
+.tema{
+    display: none;
+}

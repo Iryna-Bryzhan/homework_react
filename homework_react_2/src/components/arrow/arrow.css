@@ -1,0 +1,11 @@
+.arrow{
+    position: absolute;
+    right: -13px;
+    top: 40px;
+    z-index: 110;
+    background-color: #A492FF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+.profile{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #EFEFEF;
+}
+.photo{
+    margin-right: 6%;
+}
+.profile-info-email{
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #C0BFBD;
+    display: none;
+}
+.profile-info-name{
+    display: none;
+}

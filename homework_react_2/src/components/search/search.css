@@ -1,0 +1,17 @@
+.serchInput{
+    background-color: #424444 ;
+    border: none;
+    height: 45px;
+    width: 45px;
+    padding: 13px 6px 13px 40px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    background-image: url(../../img/search.png);
+    background-repeat: no-repeat;
+    align-items: center;
+    background-position-x: 8px;
+    background-position-y: center;
+    font-size: 16px;
+    font-weight: 600;
+}

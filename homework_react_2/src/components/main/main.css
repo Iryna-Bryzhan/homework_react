@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    color: white;
+}
+.navBar{
+    position: relative;
+    box-sizing: border-box;
+    width: 70px;
+    height: 100vh;
+    padding: 2% 1%;
+    background-color: #242625;
+    transition: all 0.5s ease;
+}
+.navBar:hover{
+    width: 250px;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+
+    .menu-item-text{
+        display: block;
+    }
+    .serchInput{
+        width: 218px;
+        padding: 13px 16px 13px 40px;
+        background-position-x: 8px;
+        transition: all 0.5s ease;
+    }
+    .profile-info-email{
+        display: block;
+    }
+    .profile-info-name{
+        display: block;
+    }
+    .checkbox {
+        margin-left: 20px;
+    }
+    .tema{
+        display: block;
+    }
+}
+
