@@ -49,9 +49,7 @@ const FormAdd = ({
         required
         onChange={onInputChange}
       />
-      <button className="button-add" type="submit">
-        {editTodo ? "OK" : "Додати"}
-      </button>
+      <button className="button-add" type="submit">Зберегти</button>
     </form>
   );
 };

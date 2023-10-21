@@ -10,10 +10,15 @@ const App = () => {
   const [input, setInput] = useState("");
   const [todos, setTodos] = useState(initialState);
   const [editTodo, setEditTodo] = useState(null);
+  const [isFormVisible, setIsFormVisible] = useState(false);
 
   useEffect(() => {
     localStorage.setItem("todos", JSON.stringify(todos));
   }, [todos]);
+
+  const toggleFormVisibility = () => {
+    setIsFormVisible(!isFormVisible);
+  };
 
   return (
     <div className="container">
@@ -22,22 +27,22 @@ const App = () => {
           <Title></Title>
         </div>
         <div>
-          <FormAdd
-            input={input}
-            setInput={setInput}
-            todos={todos}
-            setTodos={setTodos}
-            editTodo={editTodo}
-            setEditTodo={setEditTodo}
-          />
+          {isFormVisible ? (
+            <FormAdd
+              input={input}
+              setInput={setInput}
+              todos={todos}
+              setTodos={setTodos}
+              editTodo={editTodo}
+              setEditTodo={setEditTodo}
+              onFormClose={toggleFormVisibility}
+            />
+          ) : (
+            <button className="btn" onClick={toggleFormVisibility}>Додати ➕</button>
+          )}
         </div>
-
         <div>
-          <ListItem
-            todos={todos}
-            setTodos={setTodos}
-            setEditTodo={setEditTodo}
-          ></ListItem>
+          <ListItem todos={todos} setTodos={setTodos} setEditTodo={setEditTodo} />
         </div>
       </div>
     </div>
@@ -45,3 +50,4 @@ const App = () => {
 };
 
 export default App;
+
