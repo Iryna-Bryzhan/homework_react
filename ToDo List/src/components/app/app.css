@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-wrapper{
+  width: 650px;
+  background-color: rgba(3, 59, 148, 0.463);
+  min-height: 650px;
+  margin: 0 auto;
+  padding: 2% 3%;
+  box-sizing: border-box;
+  border-radius: 8px;
+  box-shadow: 0px 8px 30px 1px;
+}
+.btn{
+  background-color: rgba(0, 0, 0, 0.809);
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  border: 0;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+

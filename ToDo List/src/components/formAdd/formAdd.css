@@ -1,0 +1,29 @@
+.input-add{
+    outline: none;
+    font-size: 20px;
+    width: 65%;
+    height: 45px;
+    border-radius: 10px;
+    border: 2px solid rgb(43, 38, 38);
+    box-sizing: border-box;
+    padding: 2px 20px;
+    background-color: rgba(0, 0, 0, 0.53);
+    color: white;
+}
+.input-add::placeholder{
+    color: rgba(255, 255, 255, 0.497);
+}
+.button-add{
+    background-color: rgba(0, 0, 0, 0.809);
+    width: 140px;
+    height: 45px;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.form-add{
+   display: flex;
+   justify-content: space-between;
+}

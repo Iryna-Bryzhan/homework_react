@@ -1,0 +1,41 @@
+img{
+    width: 23x;
+    height: 23px;
+}
+.list-item{
+    display: flex;
+    margin: 20px 0;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    max-height: 30px;
+    justify-content: space-between;
+    background-color: rgba(28, 63, 120, 0.119);
+}
+.button-complate,
+.button-edit,
+.button-delete{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 28px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.list{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-right: 15px;
+   
+}
+.complete{
+    text-decoration: line-through;
+}
+input:focus,
+button:focus{
+    outline: none;
+}
